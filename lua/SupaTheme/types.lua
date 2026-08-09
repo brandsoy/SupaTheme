@@ -1,0 +1,4 @@
+---@class SupaTheme.Highlight: vim.api.keyset.highlight
+---@field style? vim.api.keyset.highlight
+---@alias SupaTheme.Highlights table<string,SupaTheme.Highlight|string>
+---@alias SupaTheme.HighlightsFn fun(colors: Palette, opts:SupaTheme.Config):SupaTheme.Highlights

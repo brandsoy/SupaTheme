@@ -1,6 +1,6 @@
 ![banner](./assets/banner.png)
 
-# luna.nvim
+# SupaTheme.nvim
 
 A minimal, near-black Neovim colorscheme with a small set of warm and cool
 accents for keywords, functions, types, and strings — dark as a night sky,
@@ -11,7 +11,7 @@ and an `accent` option to desaturate syntax colors to taste, out of the box.
 
 ```lua
 {
-  "wtfox/luna.nvim",
+  "wtfox/SupaTheme.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -21,13 +21,13 @@ and an `accent` option to desaturate syntax colors to taste, out of the box.
 Then:
 
 ```lua
-vim.cmd.colorscheme("luna")
+vim.cmd.colorscheme("SupaTheme")
 ```
 
 ## Options
 
 ```lua
-require("luna").setup({
+require("SupaTheme").setup({
   transparent = false,
   accent = 1.0, -- 0-1, blends syntax accents toward grey_light; 1 = full color
   plugins = {
