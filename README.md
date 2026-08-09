@@ -56,6 +56,7 @@ Theme files for other tools are available in [`extras/`](./extras/):
 - [lazygit](./extras/lazygit)
 - [OpenCode](./extras/opencode)
 - [Starship](./extras/starship)
+- [tmux](./tmux.theme.conf)
 - [WezTerm](./extras/wezterm)
 - [yazi](./extras/yazi)
 - [Zellij](./extras/zellij)
