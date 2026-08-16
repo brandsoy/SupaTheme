@@ -35,7 +35,7 @@ function M.get(c, opts)
     ["@keyword.directive.define"] = "Define",
     ["@keyword.exception"] = "Exception",
     ["@keyword.function"] = { fg = c.keyword }, -- For keywords used to define a function.
-    ["@keyword.import"] = { fg = c.grey_warm },
+    ["@keyword.import"] = { fg = c.keyword },
     ["@keyword.export"] = { fg = c.keyword }, -- split out via after/queries/ecma/highlights.scm
     ["@keyword.operator"] = "@operator",
     ["@keyword.repeat"] = "Repeat",

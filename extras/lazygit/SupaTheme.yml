@@ -1,8 +1,3 @@
-git:
-  diffRenderers:
-    - type: extDiff
-      command: difft --color=always --context={{diffContext}}
-
 gui:
   nerdFontsVersion: "3"
   theme:

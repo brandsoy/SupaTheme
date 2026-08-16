@@ -30,7 +30,7 @@ local palette = {
   white = "#ffffff",
 
   -- Accents -- the actual identity of this theme. Four hues, one concept each.
-  keyword = "#e19067", -- keywords, numbers, builtin types, macros (weight, not hue, sets macros apart)
+  keyword = "#ff75a0", -- keywords, numbers, builtin types, macros (weight, not hue, sets macros apart)
   func = "#75a1c7", -- function/method calls
   type = "#c4a8d6", -- types, traits, constants, JSX/TSX tags
   string = "#9eb38e", -- string literals, regex
